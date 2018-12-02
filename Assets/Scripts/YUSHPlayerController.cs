@@ -17,10 +17,14 @@ public class YUSHPlayerController : MonoBehaviour {
     private void Update(){
 
       transform.Translate (Input.GetAxis ("Horizontal") * speed, 0, 0);
+
+    
   }
 
 
     void FixedUpdate () {
+
+
 }
 
 

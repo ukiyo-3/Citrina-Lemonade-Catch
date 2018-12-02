@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class YUSHGameController : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class YUSHGameController : MonoBehaviour
     public float spawnWait;
     public float startWait;
     public float waveWait;
+    public Text gameOverText;
+
+    private bool gameOver;
 
     void Start ()
     {
@@ -31,6 +35,18 @@ public class YUSHGameController : MonoBehaviour
                 yield return new WaitForSeconds (spawnWait);
             }
             yield return new WaitForSeconds (waveWait);
+
+            if (gameOver)
+            {
+                break;
+            }
         }
     }
+
+    public void GameOver ()
+        {
+            gameOverText.text = "Game Over!";
+            gameOver = true;
+        }
+
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Pickup
   - Juice
+  - Boundary
   layers:
   - Default
   - TransparentFX

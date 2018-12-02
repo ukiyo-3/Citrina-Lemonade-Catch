@@ -1,0 +1,12 @@
+Sorting Layers Order:
+Default
+Background
+Player
+Pickups
+
+=====
+
+Game by: Yuriy Markov
+Background Music by https://www.purple-planet.com (used under Creative Commons Attribution License 3.0)
+Game Title: Citrina Lemonade Catch
+Controls: left/right arrows OR A/D keys
